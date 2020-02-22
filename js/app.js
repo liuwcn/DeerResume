@@ -1,5 +1,6 @@
 var siteTitle = "个人简历";//默认网站title，会根据简历标题自动修改
-var baseurl = 'http://liuw.vip/life/resume';
+var baseurl = 'http://liuw.vip/life/resume';//我的正式地址，自己自动化布署用的，其它人能用，不保证稳定
+//var baseurl = 'http://127.0.0.1:8080/resume';//本地测试
 // var baseurl = 'data.php'; // 使用本地文件托管简历数据，本地模式下，不支持在线编辑
 
 var deerResume = angular.module('deerResume', ['ngRoute', 'wiz.markdown', 'ngNotify', 'angularLocalStorage']);
@@ -43,6 +44,7 @@ deerResume.controller('resumeCtrl', function ($scope, $http, storage) {
 
   $http.get(url).success(function (data) {
     $scope.resume = data;
+    console.log(data)
     $scope.$emit('seSiteTitle', data.title);
   });
 

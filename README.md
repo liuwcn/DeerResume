@@ -1,6 +1,11 @@
 DeerResume
 ==========
 
+fork之后修改为适合自己使用的，同时自己写了后台。  
+后台地址：`https://github.com/wei417/DeerResumeServer.git`
+---
+# 以下为原文档
+
 最好用的MarkDown在线简历工具，可在线预览、编辑、设置访问密码和生成PDF
 
   - 可自行搭建，任意修改页面样式和风格
