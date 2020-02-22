@@ -10,7 +10,7 @@ $data['local'] = 1;
 
 if( strlen( $viewpass ) > 0 && trim($_REQUEST['vpass']) != $viewpass )
 {
-	$data['errno'] = '0';
+	$data['code'] = '0';
 	$data['show'] = 0;
 	$data['title'] = '';
 	$data['subtitle'] = '';
@@ -19,7 +19,7 @@ if( strlen( $viewpass ) > 0 && trim($_REQUEST['vpass']) != $viewpass )
 else
 {
 	
-	$data['errno'] = '0';
+	$data['code'] = '0';
 	$data['show'] = 1;
 	$data['title'] = $title;
 	$data['subtitle'] = $subtitle;
