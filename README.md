@@ -2,7 +2,7 @@ DeerResume
 ==========
 
 fork之后修改为适合自己使用的，同时自己写了后台。  
-后台地址：`https://github.com/wei417/DeerResumeServer.git`
+后台地址：`https://github.com/liuwcn/DeerResumeServer.git`
 ---
 # 以下为原文档
 
